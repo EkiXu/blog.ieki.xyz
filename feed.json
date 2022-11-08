@@ -1,0 +1,158 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Eki's blog",
+    "home_page_url": "https://blog.ieki.xyz",
+    "feed_url": "https://blog.ieki.xyz/feed.json",
+    "description": "网络空间安全技术博客",
+    "items": [
+        {
+            "id": "https://blog.ieki.xyz/pages/122b1e/",
+            "url": "https://blog.ieki.xyz/pages/122b1e/",
+            "title": "CVE-2021-25646 Apache Druid 远程代码执行漏洞分析",
+            "summary": "本文首发于安全客 https://www.anquanke.com/post/id/235831",
+            "image": "https://p5.ssl.qhimg.com/t01e3189bc82cb60912.png",
+            "date_modified": "2021-04-20T15:41:36.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/5a225c/",
+            "url": "https://blog.ieki.xyz/pages/5a225c/",
+            "title": "CVE-2021-3493 Ubuntu内核OverlayFS权限逃逸漏洞分析",
+            "summary": "Overlayfs是一种堆叠文件系统，它依赖并建立在其它的文件系统之上（例如ext4fs和xfs等等），并不直接参与磁盘空间结构的划分，仅仅将原来底层文件系统中不同的目录进行“合并”，然后向用户呈现。因此对于用户来说，它所见到的overlay文件系统根目录下的内容就来自挂载时所指定的不同目录的“合集”。如下图所示",
+            "image": "https://p2.ssl.qhimg.com/t0103b3bc63969defd5.png",
+            "date_modified": "2021-05-17T15:42:42.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/7a72b7/",
+            "url": "https://blog.ieki.xyz/pages/7a72b7/",
+            "title": "JAVA 协议安全笔记-JNDI篇",
+            "summary": "目录服务可以被认为是名称服务的一种拓展，除了名称服务中已有的名称到对象的关联信息外，还允许对象拥有属性(attributes)信息。由此，我们不仅可以根据名称去查找(lookup)对象(并获取其对应属性)，还可以根据属性值去搜索(search)对象。",
+            "image": "https://cdn.jsdelivr.net/gh/EkiXu/pics/img/202201181230227.png",
+            "date_modified": "2022-02-17T15:38:49.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/08fdb2/",
+            "url": "https://blog.ieki.xyz/pages/08fdb2/",
+            "title": "JAVA 协议安全笔记-RMI篇",
+            "summary": "}",
+            "image": "https://md.buptmerak.cn/uploads/upload_b80652d7bf108f7a1bb2be7c758c3a2a.png",
+            "date_modified": "2022-02-11T15:37:17.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/823bc8/",
+            "url": "https://blog.ieki.xyz/pages/823bc8/",
+            "title": "PHP反序列化冷知识",
+            "summary": "C可以用来绕过`wakeup，因为custom object并不支持_wakeup()，不过C需要实现unserialize`才能绑定上属性值。",
+            "image": "https://p4.ssl.qhimg.com/t01fd03c4810dadb720.png",
+            "date_modified": "2021-08-31T15:50:30.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/73c181/",
+            "url": "https://blog.ieki.xyz/pages/73c181/",
+            "title": "SSTI漏洞学习（下）——Flask/Jinja模板引擎的相关绕过",
+            "summary": "Accept-Encoding: gzip, deflate\nAccept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\nConnection: close\n`",
+            "image": "https://p1.ssl.qhimg.com/t01152a2b355e1fca5e.png",
+            "date_modified": "2021-05-28T15:47:41.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/399c81/",
+            "url": "https://blog.ieki.xyz/pages/399c81/",
+            "title": "SSTI漏洞学习（下）——Flask/Jinja模板引擎的相关绕过",
+            "summary": "import requests",
+            "image": "https://blog.ieki.xyz/54.ssrf.assets/t01e6ff8bff9d312746.png",
+            "date_modified": "2021-08-03T15:48:58.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/c66a3c/",
+            "url": "https://blog.ieki.xyz/pages/c66a3c/",
+            "title": "TSCTF-J 2019 Log",
+            "summary": "`",
+            "image": "https://blog.ieki.xyz/assets/images/tsctf-j2019.jpg",
+            "date_modified": "2021-05-06T08:53:42.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/aed93d/",
+            "url": "https://blog.ieki.xyz/pages/aed93d/",
+            "title": "I-SOON 2019 Log",
+            "summary": "}",
+            "date_modified": "2021-05-07T16:23:56.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/e69176/",
+            "url": "https://blog.ieki.xyz/pages/e69176/",
+            "title": "NCTF 游记",
+            "summary": "DNT: 1\nContent-Type: application/xml;charset=UTF-8\nReferer: http://nctf2019.x1ct34m.com:40003/\nAccept-Encoding: gzip, deflate\nAccept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\nConnection: close",
+            "image": "https://blog.ieki.xyz/assets/images/nctf2019.png",
+            "date_modified": "2021-05-06T08:53:42.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/d5f880/",
+            "url": "https://blog.ieki.xyz/pages/d5f880/",
+            "title": "2020 虎符线上赛 Write Up",
+            "summary": "if(!username || !password) {\n            throw new APIError('login error', 'username or password is necessary');\n        }",
+            "date_modified": "2021-05-06T08:53:42.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/bde715/",
+            "url": "https://blog.ieki.xyz/pages/bde715/",
+            "title": "DeltaCTF 2020",
+            "summary": "$__.=$,\n$=$$_,\n$\"_\")]?>",
+            "date_modified": "2021-05-07T16:23:54.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/574a38/",
+            "url": "https://blog.ieki.xyz/pages/574a38/",
+            "title": "网鼎杯青龙组Web WP",
+            "summary": "})",
+            "date_modified": "2021-05-06T08:53:42.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/822763/",
+            "url": "https://blog.ieki.xyz/pages/822763/",
+            "title": "GKCTF 2020",
+            "summary": "return cmd",
+            "image": "https://blog.ieki.xyz/assets/images/gkctf2020-p1.png",
+            "date_modified": "2021-05-07T16:23:45.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/6f1534/",
+            "url": "https://blog.ieki.xyz/pages/6f1534/",
+            "title": "SCTF 2020 部分题解",
+            "summary": "def md5(p):\n    h = hashlib.md5()\n    h.update(p)\n    return h.hexdigest()",
+            "date_modified": "2021-05-06T08:53:42.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/5be902/",
+            "url": "https://blog.ieki.xyz/pages/5be902/",
+            "title": "NPUCTF 2020",
+            "summary": "传数组的话，用json来传输",
+            "date_modified": "2021-05-06T08:53:42.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/a66355/",
+            "url": "https://blog.ieki.xyz/pages/a66355/",
+            "title": "WMCTF 2020",
+            "date_modified": "2021-05-06T08:53:42.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/5cc212/",
+            "url": "https://blog.ieki.xyz/pages/5cc212/",
+            "title": "TCTF2020",
+            "summary": "`symlink绕过open_basedir`",
+            "date_modified": "2021-05-06T08:53:42.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/f3f203/",
+            "url": "https://blog.ieki.xyz/pages/f3f203/",
+            "title": "D3CTF 2021 Write Up",
+            "summary": "Host: 7ef605fc8d.pool_calc.d3ctf.io\nAccept: /\nDNT: 1\nX-Requested-With: XMLHttpRequest\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36\nReferer: http://7ef605fc8d.pool_calc.d3ctf.io/redirect?filename=index.html\nAccept-Encoding: gzip, deflate\nAccept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\nCookie: ga=GA1.1.384365273.1614087612; ga_C435GZ995C=GS1.1.1614090896.2.0.1614090896.0; SERVERID=97e74b5b89c308a1c4d2808bc54f67bb|1614996749|1614996728\nIf-None-Match: W/\"4-eVnJaeCS8qWoYE4ih4B6xbGzhK0\"\nConnection: close\n`",
+            "date_modified": "2021-05-07T16:24:34.000Z"
+        },
+        {
+            "id": "https://blog.ieki.xyz/pages/8c33ec/",
+            "url": "https://blog.ieki.xyz/pages/8c33ec/",
+            "title": "虎符CTF2021",
+            "summary": "ch  = match[2]\n    #print(chr(int(ch)))\n    ltime = itime\n    i_time = datetime.strptime(match[0], '%H:%M:%S')\n    #print((itime-ltime).seconds)\n    if (itime-ltime).seconds>=2:\n        print(itime,ltime)\n        print(lastmatch,match)\n        dic[int(lastmatch[1])]=chr(int(lastmatch[2]))\n    lastmatch = match",
+            "date_modified": "2021-05-06T08:53:42.000Z"
+        }
+    ]
+}

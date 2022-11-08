@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Eki&apos;s blog</title>
+        <link>https://blog.ieki.xyz</link>
+        <description>网络空间安全技术博客</description>
+        <lastBuildDate>Tue, 08 Nov 2022 15:24:37 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <atom:link href="https://blog.ieki.xyz/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CVE-2021-25646 Apache Druid 远程代码执行漏洞分析]]></title>
+            <link>https://blog.ieki.xyz/pages/122b1e/</link>
+            <guid>https://blog.ieki.xyz/pages/122b1e/</guid>
+            <pubDate>Tue, 20 Apr 2021 15:41:36 GMT</pubDate>
+            <description><![CDATA[本文首发于安全客 https://www.anquanke.com/post/id/235831]]></description>
+            <enclosure url="https://p5.ssl.qhimg.com/t01e3189bc82cb60912.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[CVE-2021-3493 Ubuntu内核OverlayFS权限逃逸漏洞分析]]></title>
+            <link>https://blog.ieki.xyz/pages/5a225c/</link>
+            <guid>https://blog.ieki.xyz/pages/5a225c/</guid>
+            <pubDate>Mon, 17 May 2021 15:42:42 GMT</pubDate>
+            <description><![CDATA[Overlayfs是一种堆叠文件系统，它依赖并建立在其它的文件系统之上（例如ext4fs和xfs等等），并不直接参与磁盘空间结构的划分，仅仅将原来底层文件系统中不同的目录进行“合并”，然后向用户呈现。因此对于用户来说，它所见到的overlay文件系统根目录下的内容就来自挂载时所指定的不同目录的“合集”。如下图所示]]></description>
+            <enclosure url="https://p2.ssl.qhimg.com/t0103b3bc63969defd5.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[JAVA 协议安全笔记-JNDI篇]]></title>
+            <link>https://blog.ieki.xyz/pages/7a72b7/</link>
+            <guid>https://blog.ieki.xyz/pages/7a72b7/</guid>
+            <pubDate>Thu, 17 Feb 2022 15:38:49 GMT</pubDate>
+            <description><![CDATA[目录服务可以被认为是名称服务的一种拓展，除了名称服务中已有的名称到对象的关联信息外，还允许对象拥有属性(attributes)信息。由此，我们不仅可以根据名称去查找(lookup)对象(并获取其对应属性)，还可以根据属性值去搜索(search)对象。]]></description>
+            <enclosure url="https://cdn.jsdelivr.net/gh/EkiXu/pics/img/202201181230227.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[JAVA 协议安全笔记-RMI篇]]></title>
+            <link>https://blog.ieki.xyz/pages/08fdb2/</link>
+            <guid>https://blog.ieki.xyz/pages/08fdb2/</guid>
+            <pubDate>Fri, 11 Feb 2022 15:37:17 GMT</pubDate>
+            <description><![CDATA[}]]></description>
+            <enclosure url="https://md.buptmerak.cn/uploads/upload_b80652d7bf108f7a1bb2be7c758c3a2a.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[PHP反序列化冷知识]]></title>
+            <link>https://blog.ieki.xyz/pages/823bc8/</link>
+            <guid>https://blog.ieki.xyz/pages/823bc8/</guid>
+            <pubDate>Tue, 31 Aug 2021 15:50:30 GMT</pubDate>
+            <description><![CDATA[C可以用来绕过`wakeup，因为custom object并不支持_wakeup()，不过C需要实现unserialize`才能绑定上属性值。]]></description>
+            <enclosure url="https://p4.ssl.qhimg.com/t01fd03c4810dadb720.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[SSTI漏洞学习（下）——Flask/Jinja模板引擎的相关绕过]]></title>
+            <link>https://blog.ieki.xyz/pages/73c181/</link>
+            <guid>https://blog.ieki.xyz/pages/73c181/</guid>
+            <pubDate>Fri, 28 May 2021 15:47:41 GMT</pubDate>
+            <description><![CDATA[Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: close
+`]]></description>
+            <enclosure url="https://p1.ssl.qhimg.com/t01152a2b355e1fca5e.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[SSTI漏洞学习（下）——Flask/Jinja模板引擎的相关绕过]]></title>
+            <link>https://blog.ieki.xyz/pages/399c81/</link>
+            <guid>https://blog.ieki.xyz/pages/399c81/</guid>
+            <pubDate>Tue, 03 Aug 2021 15:48:58 GMT</pubDate>
+            <description><![CDATA[import requests]]></description>
+            <enclosure url="https://blog.ieki.xyz/54.ssrf.assets/t01e6ff8bff9d312746.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[TSCTF-J 2019 Log]]></title>
+            <link>https://blog.ieki.xyz/pages/c66a3c/</link>
+            <guid>https://blog.ieki.xyz/pages/c66a3c/</guid>
+            <pubDate>Thu, 06 May 2021 08:53:42 GMT</pubDate>
+            <description><![CDATA[`]]></description>
+            <enclosure url="https://blog.ieki.xyz/assets/images/tsctf-j2019.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[I-SOON 2019 Log]]></title>
+            <link>https://blog.ieki.xyz/pages/aed93d/</link>
+            <guid>https://blog.ieki.xyz/pages/aed93d/</guid>
+            <pubDate>Fri, 07 May 2021 16:23:56 GMT</pubDate>
+            <description><![CDATA[}]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NCTF 游记]]></title>
+            <link>https://blog.ieki.xyz/pages/e69176/</link>
+            <guid>https://blog.ieki.xyz/pages/e69176/</guid>
+            <pubDate>Thu, 06 May 2021 08:53:42 GMT</pubDate>
+            <description><![CDATA[DNT: 1
+Content-Type: application/xml;charset=UTF-8
+Referer: http://nctf2019.x1ct34m.com:40003/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: close]]></description>
+            <enclosure url="https://blog.ieki.xyz/assets/images/nctf2019.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[2020 虎符线上赛 Write Up]]></title>
+            <link>https://blog.ieki.xyz/pages/d5f880/</link>
+            <guid>https://blog.ieki.xyz/pages/d5f880/</guid>
+            <pubDate>Thu, 06 May 2021 08:53:42 GMT</pubDate>
+            <description><![CDATA[if(!username || !password) {
+            throw new APIError('login error', 'username or password is necessary');
+        }]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DeltaCTF 2020]]></title>
+            <link>https://blog.ieki.xyz/pages/bde715/</link>
+            <guid>https://blog.ieki.xyz/pages/bde715/</guid>
+            <pubDate>Fri, 07 May 2021 16:23:54 GMT</pubDate>
+            <description><![CDATA[$__.=$,
+$=$$_,
+$"_")]?>]]></description>
+        </item>
+        <item>
+            <title><![CDATA[网鼎杯青龙组Web WP]]></title>
+            <link>https://blog.ieki.xyz/pages/574a38/</link>
+            <guid>https://blog.ieki.xyz/pages/574a38/</guid>
+            <pubDate>Thu, 06 May 2021 08:53:42 GMT</pubDate>
+            <description><![CDATA[})]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GKCTF 2020]]></title>
+            <link>https://blog.ieki.xyz/pages/822763/</link>
+            <guid>https://blog.ieki.xyz/pages/822763/</guid>
+            <pubDate>Fri, 07 May 2021 16:23:45 GMT</pubDate>
+            <description><![CDATA[return cmd]]></description>
+            <enclosure url="https://blog.ieki.xyz/assets/images/gkctf2020-p1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[SCTF 2020 部分题解]]></title>
+            <link>https://blog.ieki.xyz/pages/6f1534/</link>
+            <guid>https://blog.ieki.xyz/pages/6f1534/</guid>
+            <pubDate>Thu, 06 May 2021 08:53:42 GMT</pubDate>
+            <description><![CDATA[def md5(p):
+    h = hashlib.md5()
+    h.update(p)
+    return h.hexdigest()]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NPUCTF 2020]]></title>
+            <link>https://blog.ieki.xyz/pages/5be902/</link>
+            <guid>https://blog.ieki.xyz/pages/5be902/</guid>
+            <pubDate>Thu, 06 May 2021 08:53:42 GMT</pubDate>
+            <description><![CDATA[传数组的话，用json来传输]]></description>
+        </item>
+        <item>
+            <title><![CDATA[WMCTF 2020]]></title>
+            <link>https://blog.ieki.xyz/pages/a66355/</link>
+            <guid>https://blog.ieki.xyz/pages/a66355/</guid>
+            <pubDate>Thu, 06 May 2021 08:53:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TCTF2020]]></title>
+            <link>https://blog.ieki.xyz/pages/5cc212/</link>
+            <guid>https://blog.ieki.xyz/pages/5cc212/</guid>
+            <pubDate>Thu, 06 May 2021 08:53:42 GMT</pubDate>
+            <description><![CDATA[`symlink绕过open_basedir`]]></description>
+        </item>
+        <item>
+            <title><![CDATA[D3CTF 2021 Write Up]]></title>
+            <link>https://blog.ieki.xyz/pages/f3f203/</link>
+            <guid>https://blog.ieki.xyz/pages/f3f203/</guid>
+            <pubDate>Fri, 07 May 2021 16:24:34 GMT</pubDate>
+            <description><![CDATA[Host: 7ef605fc8d.pool_calc.d3ctf.io
+Accept: /
+DNT: 1
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36
+Referer: http://7ef605fc8d.pool_calc.d3ctf.io/redirect?filename=index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: ga=GA1.1.384365273.1614087612; ga_C435GZ995C=GS1.1.1614090896.2.0.1614090896.0; SERVERID=97e74b5b89c308a1c4d2808bc54f67bb|1614996749|1614996728
+If-None-Match: W/"4-eVnJaeCS8qWoYE4ih4B6xbGzhK0"
+Connection: close
+`]]></description>
+        </item>
+        <item>
+            <title><![CDATA[虎符CTF2021]]></title>
+            <link>https://blog.ieki.xyz/pages/8c33ec/</link>
+            <guid>https://blog.ieki.xyz/pages/8c33ec/</guid>
+            <pubDate>Thu, 06 May 2021 08:53:42 GMT</pubDate>
+            <description><![CDATA[ch  = match[2]
+    #print(chr(int(ch)))
+    ltime = itime
+    i_time = datetime.strptime(match[0], '%H:%M:%S')
+    #print((itime-ltime).seconds)
+    if (itime-ltime).seconds>=2:
+        print(itime,ltime)
+        print(lastmatch,match)
+        dic[int(lastmatch[1])]=chr(int(lastmatch[2]))
+    lastmatch = match]]></description>
+        </item>
+    </channel>
+</rss>
